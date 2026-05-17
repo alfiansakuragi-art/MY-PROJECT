@@ -26,6 +26,10 @@ const botChoice = [
     }
 ]
 
+main.addEventListener("click", () => {
+    window.location.reload()
+})
+
 
 
 batu.addEventListener("click", () => {
