@@ -75,7 +75,6 @@ gunting.addEventListener("click", () => {
     gameOver()
 })
 kertas.addEventListener("click", () => {
-    gameOver()
     const random = botChoice[~~(Math.random() * botChoice.length)];
     foto.src = random.src;
     pilihan.innerHTML = `kamu memilih: kertas, <br><br> luna memilih: ${random.type}`
